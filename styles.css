@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(236, 236, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+}
+
+#form-persian-to-georgian {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    flex-direction: column;
+    min-width: 340px;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+    border:  none;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom : 5px;
+    flex:1;
+}
+.action-container {
+    display: flex;
+    flex:1;
+    height: 300px;
+    padding-left: 95px;
+    margin-bottom: 20px;
+}
+
+.title-container {
+    text-align: center;
+}
+
+
+.input-container input {
+    border: 2px solid rgb(194, 145, 145);
+    border-radius: 4px;
+    flex:1;
+}
+.input-container label {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    max-width: 100px;
+    flex:1;
+    padding-right: 5px;
+}
+
+.action-container * {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.title-container h1 {
+    font-size: 20px;
+   
+}
+
+.action-button {
+    cursor: default;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+.action-button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 193, 79);
+}

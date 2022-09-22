@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Calendar</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./magic-calendar.js"></script>
+</head>
+<body>
+    <form id="form-persian-to-georgian">
+        <div class="title-container">
+            <h1>This is Magic Calendar!!!</h1>
+        </div>
+        
+        <div class="input-container">
+            <label>Persian Year:</label>
+            <input type="Number" id="persianYear">
+        </div>
+
+        <div class="input-container">
+            <label>Gregorian Year:</label>
+            <input type="Number" id="gregorianYear" readonly>
+        </div>
+
+        <div class="action-container">
+            <button class="action-button" type="button" id="convertButton" onclick="convertYear()">Convert</button>
+            <input class="action-button" type="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+</html>
