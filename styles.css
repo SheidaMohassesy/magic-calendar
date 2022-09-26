@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(255, 147, 147);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
@@ -45,6 +45,7 @@ body {
     border: 2px solid rgb(194, 145, 145);
     border-radius: 4px;
     flex:1;
+    height: 30px;
 }
 .input-container label {
     font-size: 12px;
@@ -53,6 +54,9 @@ body {
     max-width: 100px;
     flex:1;
     padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .action-container * {

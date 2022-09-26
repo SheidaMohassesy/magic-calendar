@@ -8,15 +8,15 @@
     <link href="./styles.css" rel="stylesheet" />
     <script src="./magic-calendar.js"></script>
 </head>
-<body>
-    <form id="form-persian-to-georgian">
+<body onmousemove="vaghtiMouseHarkatKard(event)">
+    <form id="form-persian-to-georgian" >
         <div class="title-container">
             <h1>This is Magic Calendar!!!</h1>
         </div>
         
         <div class="input-container">
             <label>Persian Year:</label>
-            <input type="Number" id="persianYear">
+            <input type="Number" id="persianYear" onkeyup="onInputKeyPress(event)">
         </div>
 
         <div class="input-container">
@@ -28,7 +28,9 @@
             <button class="action-button" type="button" id="convertButton" onclick="convertYear()">Convert</button>
             <input class="action-button" type="reset" value="Reset">
         </div>
+        <p id="cord">
 
+        </p>
     </form>
 </body>
 </html>
